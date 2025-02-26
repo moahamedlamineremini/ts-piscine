@@ -1,0 +1,14 @@
+{
+  "name": "ep1",
+  "version": "1.0.0",
+  "description": "Comprendre la syntaxe et l’utilisation des fonctions génériques en TypeScript.",
+  "main": "generics.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
