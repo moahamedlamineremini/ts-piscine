@@ -1,0 +1,14 @@
+{
+  "name": "ep2",
+  "version": "1.0.0",
+  "description": "Introduire les contraintes sur les types génériques pour s’assurer de la présence de propriétés spécifiques.",
+  "main": "generics.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
