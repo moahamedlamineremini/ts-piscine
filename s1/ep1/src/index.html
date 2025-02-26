@@ -1,0 +1,26 @@
+<!-- 
+je veuxx afficher les logs de la console dans la page web du fichier personne.ts 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Console Logs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #logs {
+            white-space: pre-wrap;  
+            word-wrap: break-word;
+        }
+    </style>
+</head> 
+
+<body>
+    <h1>Console Logs</h1>
+    <pre id="logs"></pre>
+    <script src="../dist/personne.js"></script>
+    <script>
