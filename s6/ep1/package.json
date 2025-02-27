@@ -1,0 +1,15 @@
+{
+  "name": "ep1",
+  "version": "1.0.0",
+  "description": "Apprenez à créer et utiliser un fichier de déclaration (.d.ts) pour typer un module externe fictif.",
+  "main": "testModule.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}

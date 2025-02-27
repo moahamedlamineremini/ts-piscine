@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "ESNext",
+        "noEmitOnError": true,
+        "strict": true,
+        "noEmit": false,
+        "declaration": true
+    },
+    "files": ["src/testModule.ts"],
+    "include": ["src/**/*.ts"],
+}
