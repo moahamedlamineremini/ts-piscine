@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "ESNext",
+        "noEmitOnError": true,
+        "strict": true,
+        "noEmit": false,
+        "declaration": true,
+        "module": "CommonJS",
+    },
+    "files": ["src/index.ts"],
+    "include": ["src/**/*.ts"],
+}

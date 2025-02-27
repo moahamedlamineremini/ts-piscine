@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const gestionCours_1 = require("./gestionCours");
+const gestion = new gestionCours_1.GestionCours();
+gestion.ajouterCours({ code: "TS101", titre: "Introduction à TypeScript", niveau: gestionCours_1.NiveauCours.Debutant });
+gestion.ajouterCours({ code: "JS201", titre: "JavaScript Avancé", niveau: gestionCours_1.NiveauCours.Intermediaire });
+gestion.ajouterEtudiant({ id: 1, nom: "Alice Dupont", niveau: "Licence" });
+gestion.ajouterEtudiant({ id: 2, nom: "Bob Martin", niveau: "Master" });
+gestion.inscrireEtudiant("TS101", { id: 1, nom: "Alice Dupont", niveau: "Licence" });
+gestion.inscrireEtudiant("JS201", { id: 2, nom: "Bob Martin", niveau: "Master" });
+gestion.afficherInscriptions();
